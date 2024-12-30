@@ -1,7 +1,6 @@
 // window.stop_main_script = true;
 if(typeof mouscripts !== "undefined"){
     dev_id = mouscripts.getUniqueDeviceID();
-    // if(dev_id == "8dde-dbc8-458c-3cb4"){
        now_app_version = mouscripts.apk_version();
        if(now_app_version == "2.9"){
            window.stop_main_script = true;
@@ -13,5 +12,4 @@ if(typeof mouscripts !== "undefined"){
                 mouscripts.exitApp();
             }
        }
-    // }
 }
